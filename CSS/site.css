@@ -1,0 +1,275 @@
+﻿
+/*index*/
+body {
+    background-color: #F2F2F2;
+}
+/*Header*/
+.header {
+    margin-top: 2%;
+    margin-right: 2%;
+}
+
+/*logo*/
+#imgLogo {
+    height: 2.2vh;
+}
+
+/*body*/
+.bodySec {
+    margin-top: 1.5%;
+}
+
+/*view div style*/
+.main {
+    border-radius: 1vw;
+    background-color: #FFFFFF;
+    background: #fff;
+    padding-left: 0;
+    padding-right: 0;
+    padding: 2%;
+}
+
+
+.mainTitle {
+    border-top-right-radius: 1vw;
+    border-top-left-radius: 1vw;
+    background-color: #006793;
+    font-family: 'Open Sans',sans-serif!important;
+    color: #fff;
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+    display: block;
+    line-height: 1vh;
+}
+
+
+    .mainTitle h1 {
+        padding: 2%;
+        padding-left: 7%;
+        margin: 0;
+        display: inline-block;
+        font-size: 5vw;
+    }
+
+
+
+    /*End index style*/
+
+
+
+
+    /*ContactsList style*/
+
+
+    .mainTitle #addContact {
+        background-color: #F7F8FC;
+        color: #006793;
+        font-weight: bold;
+        line-height: normal;
+        padding: 0.5%;
+        border-radius: 15px;
+        font-family: Arial;
+        float: right;
+        margin: 2.5vw;
+        font-size: 3vw;
+    }
+
+table {
+    border-collapse: separate;
+    border-spacing: 1vw 1vh;
+    font-family: Arial;
+    line-height: 5vw;
+    width: 100%;
+    font-size: 3vw;
+}
+
+tr:nth-child(even) {
+    background: #F7F8FC;
+}
+
+tr:nth-child(odd) {
+    background: #D1DBE5;
+}
+
+table th {
+    padding: 1%;
+    text-align: center;
+    background-color: #99D8F2;
+    color: #006793;
+    font-weight: bold;
+}
+
+table td {
+    padding-left: 1%;
+}
+
+/*End ContactsList style*/
+
+
+
+
+
+/*AddContacts style*/
+
+#home {
+    float: right;
+    font-size: 3vw;
+    color: #fff;
+    padding: 3vw;
+}
+
+.contactDetails {
+    background-color: #E3E3E3;
+    border-bottom-right-radius: 1vw;
+    border-bottom-left-radius: 1vw;
+    padding: 2%;
+    text-align: center;
+}
+
+
+.addContactForm {
+    padding: 2%;
+}
+
+
+.contactDetails form h5, input {
+    display: inline;
+    line-height: normal;
+    clear: both;
+}
+
+
+
+.userContacInputs {
+    font-size: 3vw;
+    width: 80vw;
+    height: 5vw;
+    padding-right: 1vw;
+}
+
+
+
+#buttonSubmit {
+    background-color: #0091CE;
+    color: #F7F8FC;
+    font-weight: bold;
+    line-height: normal;
+    padding: 1%;
+    border-radius: 15px;
+    margin: 1.5vw;
+    font-family: Arial;
+    font-size: 3vw;
+    font-family: Arial;
+    width: 21vw;
+}
+
+.addContactFont {
+    text-align: center;
+}
+
+
+#AwesomeContactFont {
+    float: right;
+    font-size: 7vw;
+    color: #62BCE2;
+}
+
+/*End AddContacts style*/
+
+
+
+
+/*Warning Message style */
+
+.modal-body {
+    text-align: center;
+}
+
+#yes, #no {
+    background-color: #006793;
+    color: #F7F8FC;
+    font-weight: bold;
+    line-height: normal;
+    padding: 1%;
+    border-radius: 1vw;
+    margin: 1.5vw;
+    font-size: 3vw;
+    font-family: Arial;
+    width: 10vw;
+}
+
+/*End Warning Message */
+
+
+
+
+
+
+
+
+
+/* For desktop: */
+@media only screen and (min-width: 992px) {
+    
+    /*ContactsList style*/
+    .mainTitle #addContact {
+        margin: 1.5vw;
+        font-size: 0.8vw;
+    }
+
+    table {
+        line-height: 2vw;
+        font-size: 1vw;
+        width: 80%;
+    }
+
+    /*End ContactsList style*/
+
+
+
+
+
+
+    /*AddContacts style*/
+    .userContacInputs {
+        font-size: 1vw;
+        width: 20vw;
+        height: 2vw;
+    }
+
+    .mainTitle h1 {
+        font-size: 3vw;
+    }
+
+    .userContacInputs {
+        font-size: 1vw;
+    }
+
+    #buttonSubmit {
+        font-size: 0.9vw;
+        width: 7vw;
+    }
+
+
+    #AwesomeContactFont {
+        float: none;
+        font-size: 10vw;
+    }
+
+    #home {
+        font-size: 2vw;
+        padding: 2vw;
+    }
+    /*End AddContacts style*/
+
+
+
+
+    /*Warning Message */
+    #yes, #no {
+     font-size: 0.9vw;
+     width: 7vw;
+}
+    /*End Warning Message */
+}

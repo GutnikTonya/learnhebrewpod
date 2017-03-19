@@ -1,0 +1,56 @@
+﻿
+    <div class="col-xs-12 mainTitle">
+        <h1>Contacts List</h1>         
+        <input type="button" value="Add Contact" id="addContact" />
+
+
+
+
+
+    </div>
+
+    <div class="col-xs-12 ">
+
+
+
+
+        <table  align="center" id="tableContactList">
+            <tr>
+                <th>Full Name</th>
+                <th>Email</th>
+
+
+            </tr>
+            <tr ng-repeat="item in arrContactList">
+                <td>{{item.fullName}}</td>
+                <td>{{item.email}}</td>
+
+
+
+            </tr>
+           
+
+
+
+        </table>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
