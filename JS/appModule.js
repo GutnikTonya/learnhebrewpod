@@ -1,7 +1,7 @@
 ﻿(function () {
     "use strict";
 
-  console.log("Hello there again2")
+  console.log("Hello there again3")
     //Creating the main appModule
     var appModule = angular.module("appModule", ["ngRoute", "contactsListModule"]);
 
