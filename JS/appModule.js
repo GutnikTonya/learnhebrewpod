@@ -1,8 +1,7 @@
 ﻿(function () {
     "use strict";
 
-   console.log('GitChange')
-
+  
     //Creating the main appModule
     var appModule = angular.module("appModule", ["ngRoute", "contactsListModule"]);
 
